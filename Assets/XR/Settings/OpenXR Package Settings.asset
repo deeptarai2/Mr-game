@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d28f705476c80d47acb3dfade3d3142, type: 3}
   m_Name: MetaXRFoveationFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta XR Foveation
   version: 1.0.0
   featureIdInternal: com.meta.openxr.feature.foveation
@@ -354,7 +354,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
   m_Name: WebGL
   m_EditorClassIdentifier: 
-  features: []
+  features:
+  - {fileID: -2176512904040955732}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -377,28 +378,28 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 3514944065475247871}
-  - {fileID: -2741485585296962195}
-  - {fileID: -8075394405007767536}
-  - {fileID: 6625406983239111595}
-  - {fileID: -2162094926663221725}
-  - {fileID: 6887525759943831530}
-  - {fileID: -2631433068291851281}
-  - {fileID: -1296662972706325085}
   - {fileID: -2768699048572813482}
   - {fileID: -8652798436194645658}
   - {fileID: 703038417143394873}
+  - {fileID: -8075394405007767536}
   - {fileID: 6685343855657090077}
   - {fileID: 1204659603466857622}
   - {fileID: 3824358551743647901}
   - {fileID: 7583127524867282083}
+  - {fileID: 3514944065475247871}
   - {fileID: 6450724034963063581}
+  - {fileID: 6625406983239111595}
+  - {fileID: 6887525759943831530}
+  - {fileID: -1296662972706325085}
+  - {fileID: -2631433068291851281}
+  - {fileID: -2162094926663221725}
   - {fileID: -8201951357952056698}
   - {fileID: 6810991825749543393}
   - {fileID: -8004602813149965864}
   - {fileID: 5926637485135131220}
   - {fileID: 1824369248149779266}
   - {fileID: -7642314015521529849}
+  - {fileID: -2741485585296962195}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -481,11 +482,11 @@ MonoBehaviour:
   m_Name: XrPerformanceSettingsFeature WebGL
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: XR Performance Settings
+  version: 1.0.0
+  featureIdInternal: com.unity.openxr.feature.extension.performance_settings
+  openxrExtensionStrings: XR_EXT_performance_settings
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &-2162094926663221725
@@ -500,7 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4710975c7840e7d499bbb3757c22b0a5, type: 3}
   m_Name: MetaXRSubsampledLayout Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta XR Subsampled Layout
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.subsampledLayout
@@ -540,7 +541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d28f705476c80d47acb3dfade3d3142, type: 3}
   m_Name: MetaXRFoveationFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta XR Foveation
   version: 1.0.0
   featureIdInternal: com.meta.openxr.feature.foveation
@@ -781,7 +782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: MetaXRFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
@@ -868,7 +869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -1012,7 +1013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: MetaXRFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
@@ -1079,22 +1080,21 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -4943351701636291144}
-  - {fileID: 3535501381073946366}
-  - {fileID: 6861099111919363699}
-  - {fileID: 5203095143012839891}
-  - {fileID: -7326950159706301730}
-  - {fileID: 3668978565982317860}
-  - {fileID: -5630797765245584157}
   - {fileID: 2401051392933680234}
   - {fileID: 8080069279269793511}
   - {fileID: 762866410287694713}
+  - {fileID: 6861099111919363699}
   - {fileID: -1946858156361798486}
   - {fileID: 6966062151908380356}
   - {fileID: 7162453844331063830}
   - {fileID: -3761807407850685914}
   - {fileID: -8567220940331512629}
+  - {fileID: -4943351701636291144}
   - {fileID: 6694366368817976529}
+  - {fileID: 5203095143012839891}
+  - {fileID: 3668978565982317860}
+  - {fileID: -5630797765245584157}
+  - {fileID: -7326950159706301730}
   - {fileID: 943389859176645678}
   - {fileID: -6030611799820756861}
   - {fileID: -5641656897369596213}
@@ -1102,6 +1102,7 @@ MonoBehaviour:
   - {fileID: -4208586959621880335}
   - {fileID: -5631628232333661797}
   - {fileID: -9039414531937543199}
+  - {fileID: 3535501381073946366}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
